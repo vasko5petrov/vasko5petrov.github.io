@@ -1,0 +1,267 @@
+@-ms-viewport     { width: device-width; }
+@-o-viewport      { width: device-width; }
+@viewport         { width: device-width; }
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+
+body {
+  font-family: Raleway, Arial, sans-serif;
+}
+.myNav {
+  background: rgba(0,0,0,0.5);
+  border: none;
+  transition: background 0.5s ease;
+}
+.myNav .navbar-toggle {
+  margin: 20px 10px;
+  border: 1px solid #d35400;
+}
+.myNav .navbar-toggle:hover, .myNav .navbar-toggle:focus {
+  background-color: transparent;
+}
+.myNav .navbar-toggle .icon-bar {
+  background: #d35400;
+}
+.myNav ul li a {
+  padding: 5px 10px;
+  margin: 20px 15px;
+  color: white !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 2px solid transparent;
+}
+.myNav ul li a:hover, .myNav ul li.active a {
+  background: transparent !important;
+  border: 2px solid #d35400;
+  color: white;
+}
+.myNav ul li a:focus, .myNav ul li a.dropdown-toggle:focus {
+  background: transparent !important;
+}
+
+.myNav ul li a.dropdown-toggle:focus {
+  border: 2px solid #d35400;
+}
+.myNav .navbar-brand {
+  padding: 17px 0px;
+  margin: 0 20px;
+}
+.myNav .navbar-brand .logo {
+  width: 50px;
+  height: 50px;
+  color: #d35400;
+  font-size: 2em;
+}
+.myNav .dropdown-menu {
+  background: rgba(0,0,0,0.5);
+  transition: background 0.5s ease;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: transparent !important;
+    border-color: #d35400;
+}
+.myNav .dropdown-menu li a{
+  margin: 0;
+  text-align: center;
+  border: none;
+  border-left: 4x solid transparent;
+  border-right: 4x solid transparent;
+  text-transform: inherit;
+  font-weight: 300;
+}
+.myNav .dropdown-menu li a:hover {
+  border-top: none;
+  border-bottom: none;
+  border-left: 4px solid #35400;
+  borde-right: 4px solid #35400;
+}
+.myNav .dropdown-menu li a:focus {
+  color: white;
+}
+.head-section {
+  background: #333;
+  background-image: url("https://static.pexels.com/photos/14676/pexels-photo-14676.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  margin-bottom: 0px;
+}
+.head-text {
+  display: inline-block;
+  background: rgba(0,0,0,0.5);
+  padding: 15px 20px;
+  font-weight: 300;
+}
+.head-text:nth-of-type(2) {
+  margin-top: -6px;
+}
+
+#about-section, #portfolio-section, #contact-section {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.section-title {
+  text-align: center;
+}
+.section-title h2 {
+  background: rgba(0,0,0,0.05);
+  border: 1px dashed #ccc;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 20px;
+  color: #333;
+}
+.skill-icon {
+  font-size: 3em;
+  width: 80px;
+  height: 80px;
+  background-color: #eee;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  border: 1px solid #ddd;
+  margin: 0 auto;
+}
+.skill-icon i.web-design {
+  color: yellowgreen;
+}
+.skill-icon i.front-end {
+  color: orangered;
+}
+.skill-icon i.php {
+  color: #28a;
+}
+
+.info img {
+  float: right;
+  border-radius: 10px;
+  padding: 5px;
+  border: 1px dashed #999;
+}
+
+#portfolio-section {
+  background: #333;
+  background-image: url("https://static.pexels.com/photos/14676/pexels-photo-14676.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#portfolio-section {
+  color: white;
+}
+#portfolio-section a {
+  color: white;
+}
+#portfolio-section .section-title h2 {
+  color: #eee;
+  background: rgba(0,0,0,0.5);
+  border: none;
+}
+#portfolio-section hr {
+  border-color: rgba(0,0,0,0.25);
+}
+#portfolio-section .projects-section {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+.projects-section .project img {
+  margin: 0 auto;
+  border-radius: 5px;
+}
+#portfolio-section .projects-section p {
+  text-align: center;
+}
+
+#portfolio-section h4 {
+  margin-top: 20px;
+}
+
+#contact-section input, #contact-section textarea {
+	background: transparent;
+	border: 1px solid #999;
+	border-radius: 0px;
+	color: #333;
+	padding: 20px;
+}
+#contact-section textarea {
+	height: 150px;
+  resize: none;
+}
+.contact-btn {
+	padding: 15px 40px;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	font-weight: bold;
+  background: #e74c3c;
+  border: none;
+  outline: none;
+}
+.contact-btn:hover {
+  background: #c0392b;
+  border: none;
+}
+.contact-btn:focus {
+  background: #c0392b !important;
+  border: none;
+}
+
+.nav-darker {
+  background: #eee;
+  border-bottom: 1px solid #ccc;
+}
+.nav-darker ul li a {
+  color: #333 !important;
+}
+.nav-darker ul.dropdown-menu {
+  color: white;
+  background: #eee;
+}
+.copyright {
+  text-align: right;
+}
+@media(max-width: 991px) {
+  .copyright {
+    text-align: left;
+  }
+}
+@media(max-width: 767px) {
+  .myNav ul li a {
+    border: none;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    text-align: center;
+  }
+  .myNav ul li a:hover {
+    background: transparent !important;
+    border-top: none;
+    border-bottom: none;
+    border-left: 2px solid #d35400;
+    border-right: 2px solid #d35400;
+  }
+  .skill, .project {
+    margin-bottom: 30px;
+  }
+  .info img {
+    float: none;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px dashed #999;
+  }
+  .info .info-text {
+    text-align: center;
+  }
+  
+  #contact-section input {
+    margin-bottom: 20px;
+  }
+  
+}
+@media (min-width: 478px) and (max-width: 767px) {
+  .skill, .project {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
